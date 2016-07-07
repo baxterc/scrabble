@@ -55,7 +55,6 @@ namespace Scrabble.Objects
       foreach (char c in characterArray)
       {
         char d = Char.ToLower(c);
-        Console.WriteLine(d);
         if (d == ' ')
         {
           return FinalScore;
